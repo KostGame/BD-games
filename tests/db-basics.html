@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Интерактивный тест по анализу предметной области и баз данных.">
+  <title>Тест 1. Основы анализа и баз данных</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="./db-basics.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="site-shell topbar__inner">
+        <a class="text-link" href="../index.html">← На главную</a>
+        <div class="topbar__brand">
+          <p class="eyebrow">Тест 1</p>
+          <h1>Основы анализа и баз данных</h1>
+        </div>
+        <div class="topbar__meta">
+          <span class="badge">10 вопросов</span>
+          <span class="badge">без сервера</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="site-shell quiz-layout">
+      <section class="panel quiz-intro">
+        <div>
+          <p class="eyebrow">Интерактивный тест</p>
+          <p class="lead">
+            Выберите ответы прямо на странице и нажмите проверку. Результат сразу появится ниже и будет удобен для скриншота.
+          </p>
+        </div>
+
+        <div class="quiz-progress" aria-live="polite">
+          <div class="quiz-progress__header">
+            <span>Вопросов отвечено</span>
+            <strong id="answered-count">0 из 10</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+        </div>
+      </section>
+
+      <form id="quiz-form" class="quiz-form" novalidate>
+        <div id="questions" class="question-list"></div>
+
+        <div class="quiz-actions">
+          <button type="submit" class="button button--primary">Проверить результат</button>
+          <button type="button" class="button button--ghost" id="reset-button">Пройти заново</button>
+        </div>
+      </form>
+
+      <section id="result-panel" class="panel result-panel" hidden aria-live="polite">
+        <div class="result-head">
+          <div>
+            <p class="eyebrow">Результат проверки</p>
+            <h2 id="result-score">0 из 10</h2>
+            <p id="result-grade">Оценка: пока нет результата</p>
+          </div>
+          <div class="score-chip">
+            <strong id="result-percent">0%</strong>
+            <span>верных ответов</span>
+          </div>
+        </div>
+
+        <div class="result-stats">
+          <div class="stat">
+            <strong id="correct-count">0</strong>
+            <span>правильных</span>
+          </div>
+          <div class="stat">
+            <strong id="answered-summary">0</strong>
+            <span>ответов дано</span>
+          </div>
+          <div class="stat">
+            <strong id="missed-count">0</strong>
+            <span>без ответа</span>
+          </div>
+        </div>
+
+        <div id="review-list" class="review-list"></div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
