@@ -719,6 +719,23 @@ h3 {
   color: var(--success);
 }
 
+.review-explanation {
+  display: grid;
+  gap: 4px;
+  padding-top: 2px;
+}
+
+.review-explanation span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.review-explanation p {
+  color: var(--text);
+}
+
 @media (max-width: 960px) {
   .hero-grid,
   .quiz-intro {
