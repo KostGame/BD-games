@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="BD Games favicon">
+  <rect width="256" height="256" rx="56" fill="#0f172a"/>
+  <rect x="20" y="20" width="216" height="216" rx="48" fill="#111827" stroke="#334155" stroke-width="4"/>
+  <path d="M157 80h37c15 0 26 10 26 23 0 12-7 19-18 22 12 3 20 12 20 26 0 15-11 27-28 27h-37V80Zm31 37c10 0 16-4 16-11 0-7-6-10-16-10h-13v21h13Zm3 52c10 0 16-5 16-13 0-7-6-12-16-12h-16v25h16Z" fill="#dbeafe"/>
+  <path d="M72 80h32c23 0 38 13 38 34 0 12-5 21-14 27 12 5 19 15 19 29 0 22-16 36-41 36H72V80Zm29 48c11 0 18-6 18-15 0-10-7-15-18-15H96v30h5Zm4 62c14 0 22-6 22-18 0-11-8-17-23-17H96v35h9Z" fill="#f8fafc"/>
+  <g transform="translate(154 154)">
+    <ellipse cx="28" cy="10" rx="30" ry="11" fill="#60a5fa"/>
+    <path d="M-2 10v34c0 7 13 13 30 13s30-6 30-13V10" fill="#1d4ed8"/>
+    <ellipse cx="28" cy="44" rx="30" ry="11" fill="#1d4ed8"/>
+    <path d="M-2 10c0 7 13 13 30 13s30-6 30-13-13-13-30-13S-2 3-2 10Z" fill="none" stroke="#bfdbfe" stroke-width="3"/>
+    <path d="M8 20h40M8 32h40" stroke="#bfdbfe" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <rect x="48" y="196" width="160" height="8" rx="4" fill="#38bdf8" opacity=".9"/>
+</svg>
