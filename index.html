@@ -3,101 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Интерактивные задания по анализу и проектированию баз данных.">
   <title>BD Games</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page">
-    <header class="topbar">
-      <div class="site-shell topbar__inner">
-        <div class="topbar__brand">
-          <p class="eyebrow">Статический учебный сайт</p>
-          <h1>BD Games</h1>
-        </div>
-        <a class="button button--ghost" href="tests/db-basics.html">Открыть тест 1</a>
-      </div>
-    </header>
+  <div class="page page--home">
+    <main class="site-shell home-shell">
+      <header class="home-header">
+        <h1>BD Games</h1>
+      </header>
 
-    <main>
-      <section class="hero-band">
-        <div class="site-shell hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Готово к GitHub Pages</p>
-            <p class="lead">Интерактивные задания по анализу и проектированию баз данных для начинающих.</p>
-            <p class="body-copy">
-              Сайт работает как обычная статическая страница: без сборки, без сервера и без внешних библиотек.
-              Первый тест уже доступен, а структура оставляет место для следующих тем.
-            </p>
-            <div class="hero-actions">
-              <a class="button button--primary" href="tests/db-basics.html">Тест 1. Основы анализа и баз данных</a>
-              <span class="meta-chip">10 вопросов</span>
-              <span class="meta-chip">без сервера</span>
-            </div>
-          </div>
-
-          <aside class="panel hero-panel">
-            <h2>Что уже есть</h2>
-            <ul class="feature-list">
-              <li>главная страница с навигацией</li>
-              <li>отдельная страница первого теста</li>
-              <li>подготовка к будущим тестам</li>
-            </ul>
-          </aside>
-        </div>
-      </section>
-
-      <section class="site-shell content-section" aria-labelledby="available-tests">
-        <div class="section-header">
-          <h2 id="available-tests">Доступные тесты</h2>
-          <p>Первая версия проекта уже содержит рабочую основу для расширения.</p>
-        </div>
-
-        <div class="test-grid">
-          <article class="test-card test-card--featured">
-            <div class="test-card__header">
-              <span class="badge badge--primary">Тест 1</span>
-              <span class="badge">активен</span>
-            </div>
-            <h3>Основы анализа и баз данных</h3>
-            <p>Проверяет базовые понятия предметной области, проблемной зоны, объектов, атрибутов и роли базы данных.</p>
-            <div class="test-card__footer">
-              <span>10 вопросов</span>
-              <a class="text-link" href="tests/db-basics.html">Начать</a>
-            </div>
-          </article>
-
-          <article class="test-card test-card--placeholder">
-            <span class="badge">Скоро</span>
-            <h3>Тест 2</h3>
-            <p>Место зарезервировано под следующую тему.</p>
-          </article>
-
-          <article class="test-card test-card--placeholder">
-            <span class="badge">Скоро</span>
-            <h3>Тест 3</h3>
-            <p>Место зарезервировано под следующую тему.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="site-shell content-section content-section--muted" aria-labelledby="next-steps">
-        <div class="section-header">
-          <h2 id="next-steps">Как расширять проект</h2>
-          <p>Добавляйте новый HTML-файл в <code>tests/</code>, включайте его в список на главной и обновляйте README.</p>
-        </div>
-
-        <div class="note-grid">
-          <div class="note-panel">
-            <h3>Структура</h3>
-            <p>У каждого теста может быть собственная страница, а стили можно переиспользовать из <code>styles.css</code>.</p>
-          </div>
-          <div class="note-panel">
-            <h3>Публикация</h3>
-            <p>GitHub Pages должен отдавать <code>index.html</code> из корня репозитория и файл теста по прямой ссылке.</p>
-          </div>
-        </div>
-      </section>
+      <nav aria-label="Тесты">
+        <ul class="home-tests">
+          <li class="home-tests__item">
+            <a class="home-tests__link" href="tests/db-basics.html">Тест 1. Основы анализа и баз данных</a>
+          </li>
+        </ul>
+      </nav>
     </main>
   </div>
 </body>
